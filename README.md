@@ -1,6 +1,13 @@
 # playground-rust-file-size
 Messing around with Rust binary file size.
 
+## The code
+```rust
+fn main() {
+  println!("Hello, world!");
+}
+```
+
 ## Benchmarks
 ```txt
 01  292B  # No optimizations whatsoever
