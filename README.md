@@ -1,5 +1,5 @@
-# playground-rus-file-size
-Messing around with Rust binaries file size
+# playground-rust-file-size
+Messing around with Rust binary file size.
 
 ## Benchmarks
 ```txt
@@ -8,6 +8,9 @@ Messing around with Rust binaries file size
 03  228B  # Build with --release and strip(1)
 04   88B  # --release, strip(1) and upx
 ```
+
+## Note on dynamic linking
+I really dislike dynamic linking.
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
