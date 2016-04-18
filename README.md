@@ -13,7 +13,8 @@ fn main() {
 01  292kB  # No optimizations whatsoever
 02  292kB  # Build with --release flag
 03  228kB  # Build with --release and strip(1)
-04   88kB  # --release, strip(1) and upx
+04   88kB  # --release, strip(1) and upx(1)
+05   36kB  # and using #![feature(alloc_system)]
 ```
 
 ## Note on dynamic linking

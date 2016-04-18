@@ -1,0 +1,2 @@
+#!/bin/sh
+du -shH target/release/01 | awk '{ print $1 }'
