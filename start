@@ -1,0 +1,10 @@
+#!/bin/sh
+
+root_dir="$(pwd)"
+find ./*/start | while read start; do
+  dir="$(dirname "$start")"
+  cd "$dir"
+  size="$(./start)"
+  printf "%s %s\n" "$dir" "$size"
+  cd "$root_dir"
+done

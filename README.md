@@ -10,10 +10,10 @@ fn main() {
 
 ## Benchmarks
 ```txt
-01  292B  # No optimizations whatsoever
-02  289B  # Build with --release flag
-03  228B  # Build with --release and strip(1)
-04   88B  # --release, strip(1) and upx
+01  292kB  # No optimizations whatsoever
+02  292kB  # Build with --release flag
+03  228kB  # Build with --release and strip(1)
+04   88kB  # --release, strip(1) and upx
 ```
 
 ## Note on dynamic linking

@@ -1,2 +1,2 @@
 #!/bin/sh
-du -s target/debug/01 | awk '{ print $1 }' | pretty-bytes
+du -shH target/debug/01 | awk '{ print $1 }'
