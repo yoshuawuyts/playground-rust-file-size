@@ -1,0 +1,2 @@
+#!/bin/sh
+du -s target/release/01 | awk '{ print $1 }' | pretty-bytes

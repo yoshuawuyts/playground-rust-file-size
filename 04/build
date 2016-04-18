@@ -1,0 +1,5 @@
+#!/bin/sh
+cargo clean
+cargo build -v --release
+strip ./target/release/01
+upx -9 ./target/release/01
