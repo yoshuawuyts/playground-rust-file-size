@@ -36,6 +36,7 @@ I really dislike dynamic linking.
 - [advanced linking](https://doc.rust-lang.org/book/advanced-linking.html)
 - [byte static linux binary in
   Rust](http://mainisusuallyafunction.blogspot.com.au/2015/01/151-byte-static-linux-binary-in-rust.html)
+- [rust-musl-builder](https://github.com/emk/rust-musl-builder)
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
