@@ -34,6 +34,8 @@ I really dislike dynamic linking.
 - [reddit - binary: can we do better?](https://www.reddit.com/r/rust/comments/4fbm9h/i_created_an_88b_hello_world_binary_can_we_do/)
 - [super tiny Rust hello world](https://github.com/retep998/hello-rs)
 - [advanced linking](https://doc.rust-lang.org/book/advanced-linking.html)
+- [byte static linux binary in
+  Rust](http://mainisusuallyafunction.blogspot.com.au/2015/01/151-byte-static-linux-binary-in-rust.html)
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
